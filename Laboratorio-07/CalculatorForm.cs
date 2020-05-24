@@ -22,99 +22,124 @@ namespace Laboratorio_07
 
         }
 
-        private void On0ButtonClicked()
+        private void Button0_Click(object sender, EventArgs e)
         {
-
+            if (CalculatorText.Text == "0" && CalculatorText.Text != null)
+            {
+                return;
+            }
+            else
+            {
+                CalculatorText.Text += "0";
+            }
         }
 
-        private void On1ButtonClicked()
+        private void Button1_Click(object sender, EventArgs e)
         {
-
+            if (CalculatorText.Text == "0" && CalculatorText.Text != null)
+            {
+                CalculatorText.Text = "1";
+            }
+            else
+            {
+                CalculatorText.Text += "1";
+            }
         }
 
-        private void On2ButtonClicked()
+        private void Button2_Click(object sender, EventArgs e)
         {
-
+            if (CalculatorText.Text == "0" && CalculatorText.Text != null)
+            {
+                CalculatorText.Text = "2";
+            }
+            else
+            {
+                CalculatorText.Text += "2";
+            }
         }
 
-        private void On3ButtonClicked()
+        private void Button3_Click(object sender, EventArgs e)
         {
-
+            if (CalculatorText.Text == "0" && CalculatorText.Text != null)
+            {
+                CalculatorText.Text = "3";
+            }
+            else
+            {
+                CalculatorText.Text += "3";
+            }
         }
 
-        private void On4ButtonClicked()
+        private void Button4_Click(object sender, EventArgs e)
         {
-
+            if (CalculatorText.Text == "0" && CalculatorText.Text != null)
+            {
+                CalculatorText.Text = "4";
+            }
+            else
+            {
+                CalculatorText.Text += "4";
+            }
         }
 
-        private void On5ButtonClicked()
+        private void Button5_Click(object sender, EventArgs e)
         {
-
+            if (CalculatorText.Text == "0" && CalculatorText.Text != null)
+            {
+                CalculatorText.Text = "5";
+            }
+            else
+            {
+                CalculatorText.Text += "5";
+            }
         }
 
-        private void On6ButtonClicked()
+        private void Button6_Click(object sender, EventArgs e)
         {
-
+            if (CalculatorText.Text == "0" && CalculatorText.Text != null)
+            {
+                CalculatorText.Text = "6";
+            }
+            else
+            {
+                CalculatorText.Text += "6";
+            }
         }
 
-        private void On7ButtonClicked()
+        private void Button7_Click(object sender, EventArgs e)
         {
-
+            if (CalculatorText.Text == "0" && CalculatorText.Text != null)
+            {
+                CalculatorText.Text = "7";
+            }
+            else
+            {
+                CalculatorText.Text += "7";
+            }
         }
 
-        private void On8ButtonClicked()
+        private void Button8_Click(object sender, EventArgs e)
         {
-
+            if (CalculatorText.Text == "0" && CalculatorText.Text != null)
+            {
+                CalculatorText.Text = "8";
+            }
+            else
+            {
+                CalculatorText.Text += "8";
+            }
         }
 
-        private void On9ButtonClicked()
+        private void Button9_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void OnACButtonClicked()
-        {
-
-        }
-        
-        private void OnDELButtonClicked()
-        {
-
-        }
-
-        private void OnEQUALSButtonClicked()
-        {
-
-        }
-
-        private void OnAnsButtonClicked()
-        {
-
-        }
-
-        private void OnDotButtonClicked()
-        {
-
-        }
-
-        private void OnPlusButtonClicked()
-        {
-
-        }
-
-        private void OnMinusButtonClicked()
-        {
-
-        }
-
-        private void OnMultiplyButtonClicked()
-        {
-
-        }
-
-        private void OnDivideButtonClicked()
-        {
-
+            if (CalculatorText.Text == "0" && CalculatorText.Text != null)
+            {
+                CalculatorText.Text = "9";
+            }
+            else
+            {
+                CalculatorText.Text += "9";
+            }
         }
     }
 }
