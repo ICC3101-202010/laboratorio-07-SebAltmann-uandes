@@ -203,6 +203,7 @@
             this.ButtonAC.Text = "AC";
             this.ButtonAC.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.ButtonAC.UseVisualStyleBackColor = false;
+            this.ButtonAC.Click += new System.EventHandler(this.ButtonAC_Click);
             // 
             // ButtonDEL
             // 
@@ -215,6 +216,7 @@
             this.ButtonDEL.Text = "DEL";
             this.ButtonDEL.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.ButtonDEL.UseVisualStyleBackColor = false;
+            this.ButtonDEL.Click += new System.EventHandler(this.ButtonDEL_Click);
             // 
             // ButtonANS
             // 

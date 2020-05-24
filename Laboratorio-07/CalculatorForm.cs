@@ -141,5 +141,22 @@ namespace Laboratorio_07
                 CalculatorText.Text += "9";
             }
         }
+
+        private void ButtonAC_Click(object sender, EventArgs e)
+        {
+            CalculatorText.Text = "0";
+        }
+
+        private void ButtonDEL_Click(object sender, EventArgs e)
+        {
+            if (CalculatorText.Text == "0" && CalculatorText.Text != null)
+            {
+                return;
+            }
+            else
+            {
+                CalculatorText.Text = CalculatorText.Text.Remove(CalculatorText.Text.Length - 1);
+            }
+        }
     }
 }
