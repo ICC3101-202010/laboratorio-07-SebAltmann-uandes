@@ -229,6 +229,7 @@
             this.ButtonANS.Text = "Ans";
             this.ButtonANS.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.ButtonANS.UseVisualStyleBackColor = false;
+            this.ButtonANS.Click += new System.EventHandler(this.ButtonANS_Click);
             // 
             // ButtonEQUALS
             // 
@@ -241,6 +242,7 @@
             this.ButtonEQUALS.Text = "=";
             this.ButtonEQUALS.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.ButtonEQUALS.UseVisualStyleBackColor = false;
+            this.ButtonEQUALS.Click += new System.EventHandler(this.ButtonEQUALS_Click);
             // 
             // ButtonDOT
             // 
@@ -254,6 +256,7 @@
             this.ButtonDOT.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.ButtonDOT.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.ButtonDOT.UseVisualStyleBackColor = false;
+            this.ButtonDOT.Click += new System.EventHandler(this.ButtonDOT_Click);
             // 
             // ButtonPLUS
             // 
@@ -266,6 +269,7 @@
             this.ButtonPLUS.Text = "+";
             this.ButtonPLUS.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.ButtonPLUS.UseVisualStyleBackColor = false;
+            this.ButtonPLUS.Click += new System.EventHandler(this.ButtonPLUS_Click);
             // 
             // ButtonMINUS
             // 
@@ -278,6 +282,7 @@
             this.ButtonMINUS.Text = "-";
             this.ButtonMINUS.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.ButtonMINUS.UseVisualStyleBackColor = false;
+            this.ButtonMINUS.Click += new System.EventHandler(this.ButtonMINUS_Click);
             // 
             // ButtonMULTIPLY
             // 
@@ -290,6 +295,7 @@
             this.ButtonMULTIPLY.Text = "X";
             this.ButtonMULTIPLY.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.ButtonMULTIPLY.UseVisualStyleBackColor = false;
+            this.ButtonMULTIPLY.Click += new System.EventHandler(this.ButtonMULTIPLY_Click);
             // 
             // ButtonDIVIDE
             // 
@@ -302,6 +308,7 @@
             this.ButtonDIVIDE.Text = "÷";
             this.ButtonDIVIDE.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.ButtonDIVIDE.UseVisualStyleBackColor = false;
+            this.ButtonDIVIDE.Click += new System.EventHandler(this.ButtonDIVIDE_Click);
             // 
             // CalculatorForm
             // 
@@ -328,6 +335,8 @@
             this.Controls.Add(this.Button8);
             this.Controls.Add(this.Button7);
             this.Controls.Add(this.CalculatorText);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "CalculatorForm";
             this.Text = "Calculator";
             this.Load += new System.EventHandler(this.CalculatorForm_Load);
